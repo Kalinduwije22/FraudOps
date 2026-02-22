@@ -52,18 +52,18 @@ FraudOps/
 ├── main.py             # Main entry point to execute the pipeline
 └── mlflow.db           # SQLite database for MLflow tracking backend
 
-🚀 Getting Started
-Prerequisites
-Make sure you have the following installed on your local machine:
+## 🚀 Getting Started
+*Prerequisites
+*Make sure you have the following installed on your local machine:
 
-Python 3.8+
+*Python 3.8+
 
-Make (for using the Makefile)
+*Make (for using the Makefile)
 
-Git
+*Git
 
-Installation
-Clone the repository
+*Installation
+*Clone the repository
 
 Bash
 git clone [https://github.com/Kalinduwije22/FraudOps.git](https://github.com/Kalinduwije22/FraudOps.git)
@@ -75,9 +75,9 @@ Bash
 make install
 (If make install is not configured, run: pip install -r requirements.txt)
 
-💻 Usage
-1. Run the ML Pipeline
-To trigger the end-to-end pipeline (data processing, model training, and evaluation), execute:
+##💻 Usage
+*1. Run the ML Pipeline
+*To trigger the end-to-end pipeline (data processing, model training, and evaluation), execute:
 
 Bash
 python main.py
@@ -92,8 +92,8 @@ Bash
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 Open your browser and navigate to http://127.0.0.1:5000.
 
-3. Launch the Web App
-To serve the model and interact with the prediction endpoint, navigate to the web directory and start the server:
+*3. Launch the Web App
+*To serve the model and interact with the prediction endpoint, navigate to the web directory and start the server:
 
 Bash
 cd web/
@@ -111,7 +111,7 @@ Push to the Branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-📜 License
+##📜 License
 Distributed under the MIT License. See LICENSE for more information.
 
 <div align="center">
