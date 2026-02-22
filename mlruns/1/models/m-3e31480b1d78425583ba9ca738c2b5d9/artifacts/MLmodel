@@ -1,0 +1,23 @@
+artifact_path: file:///E:/FraudOps/mlruns/1/models/m-3e31480b1d78425583ba9ca738c2b5d9/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.0
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.5.1+cu121
+mlflow_version: 3.8.1
+model_id: m-3e31480b1d78425583ba9ca738c2b5d9
+model_size_bytes: 19123
+model_uuid: m-3e31480b1d78425583ba9ca738c2b5d9
+prompts: null
+run_id: 17d6c57c889a4575acd8cf314fca9e87
+utc_time_created: '2026-01-25 12:20:47.147749'

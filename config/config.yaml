@@ -1,0 +1,22 @@
+project:
+  name: "Fraud_Detection_System"
+  experiment_name: "Pytorch_Fraud_Experiment_v1"
+
+data:
+  num_samples: 20000
+  num_features: 15
+  test_size: 0.2
+  save_path: "artifacts/"
+
+model:
+  input_dim: 15
+  hidden_dim: 64
+  output_dim: 1
+  learning_rate: 0.001
+  epochs: 50
+  batch_size: 64
+
+kafka:
+  bootstrap_servers: "localhost:29092"
+  topic_input: "transaction_stream"
+  group_id: "fraud_detector_group"
